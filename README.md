@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive web design requires multiple layouts for different screen sizes. This means that one layout will only be for just one screen design. Responsive layouts on the other hand, can adapt to any screen size
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+It means that a min-width property is needed in order to adapt the mobile desing for a larger viewport
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It will automatically convert 1 rem to 10px, this way we have more control over rem units.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is a method used in CSS in order to type code in a more clean and organised way. A sintax such as LESS or SASS is needed well as a compiler, which job is to compile LESS syntax into regular CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+nesting is my favorite concept because I am able to organize my code in a clean way so whenever I need to adjust a line of code, I know where to find it. I find parametric mixins hard to use at this point since I have only worked with not a lot of lines of code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
