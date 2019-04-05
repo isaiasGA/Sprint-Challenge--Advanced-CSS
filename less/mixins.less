@@ -5,3 +5,22 @@
     justify-content: center;
     align-items: center;
 }
+
+
+
+.costum-btn (@color:purple, @width: 100px, @background: black) {
+    border: solid;
+    width: @width;
+    height: 42px;
+    padding: 8px 4%;
+    background: @background;
+    color: @color;
+    font-size: 1.9rem;
+    border-radius: 7px;
+
+    &:hover {
+        background: @color;
+        color: @background;
+      }
+
+}
